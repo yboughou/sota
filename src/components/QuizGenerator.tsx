@@ -5,29 +5,11 @@ interface QuizGeneratorProps {
 }
 
 const QuizGenerator: React.FC<QuizGeneratorProps> = ({ onQuizGenerated }) => {
-  const [topic, setTopic] = useState('Historical Events');
+  const [topic, setTopic] = useState('');
   const [difficulty, setDifficulty] = useState('medium');
   const [numQuestions, setNumQuestions] = useState(5);
   const [isGenerating, setIsGenerating] = useState(false);
   const [error, setError] = useState('');
-
-  const topics = [
-    "Historical Events",
-    "World Geography", 
-    "Science and Technology",
-    "Literature and Authors",
-    "Art and Artists",
-    "Mathematics",
-    "Space and Astronomy",
-    "Ancient Civilizations",
-    "Modern Politics",
-    "Environmental Science",
-    "Music History",
-    "Sports Legends",
-    "Famous Inventors",
-    "World Religions",
-    "Oceanography"
-  ];
 
   const difficulties = [
     { value: 'easy', label: 'Easy' },
@@ -36,6 +18,11 @@ const QuizGenerator: React.FC<QuizGeneratorProps> = ({ onQuizGenerated }) => {
   ];
 
   const generateQuiz = async () => {
+    if (!topic.trim()) {
+      setError('Please enter a topic.');
+      return;
+    }
+    
     setIsGenerating(true);
     setError('');
 
@@ -90,16 +77,14 @@ const QuizGenerator: React.FC<QuizGeneratorProps> = ({ onQuizGenerated }) => {
       <div className="generator-form">
         <div className="form-group">
           <label htmlFor="topic">Topic:</label>
-          <select
+          <input
             id="topic"
+            type="text"
+            placeholder="e.g. Vietnam War"
             value={topic}
             onChange={(e) => setTopic(e.target.value)}
             disabled={isGenerating}
-          >
-            {topics.map((t) => (
-              <option key={t} value={t}>{t}</option>
-            ))}
-          </select>
+          />
         </div>
 
         <div className="form-group">
@@ -147,4 +132,4 @@ const QuizGenerator: React.FC<QuizGeneratorProps> = ({ onQuizGenerated }) => {
   );
 };
 
-export default QuizGenerator; 
+export default QuizGenerator;
