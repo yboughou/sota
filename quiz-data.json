@@ -1,0 +1,66 @@
+{
+  "title": "Historical Events Quiz",
+  "description": "Test your knowledge of important historical events",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In what year did the Declaration of Independence get signed?",
+      "options": [
+        "1775",
+        "1776", 
+        "1777",
+        "1778"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Declaration of Independence was signed on July 4, 1776, marking the American colonies' formal separation from Great Britain."
+    },
+    {
+      "id": 2,
+      "question": "Who was the first human to walk on the moon?",
+      "options": [
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Michael Collins", 
+        "Yuri Gagarin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Neil Armstrong became the first human to walk on the moon on July 20, 1969, during the Apollo 11 mission."
+    },
+    {
+      "id": 3,
+      "question": "When did the Berlin Wall fall?",
+      "options": [
+        "1987",
+        "1988",
+        "1989",
+        "1990"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Berlin Wall fell on November 9, 1989, symbolizing the end of the Cold War and the reunification of Germany."
+    },
+    {
+      "id": 4,
+      "question": "What event marked the United States' entry into World War II?",
+      "options": [
+        "D-Day invasion",
+        "Pearl Harbor attack",
+        "Battle of Midway",
+        "Hiroshima bombing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Japanese attack on Pearl Harbor on December 7, 1941, prompted the United States to enter World War II."
+    },
+    {
+      "id": 5,
+      "question": "Who delivered the famous 'I Have a Dream' speech?",
+      "options": [
+        "Malcolm X",
+        "Martin Luther King Jr.",
+        "Rosa Parks",
+        "John F. Kennedy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Martin Luther King Jr. delivered his iconic 'I Have a Dream' speech during the 1963 March on Washington for Jobs and Freedom."
+    }
+  ]
+} 

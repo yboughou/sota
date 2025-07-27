@@ -1,0 +1,27 @@
+[
+  {
+    "term": "Declaration of Independence",
+    "image_prompt": "A group of men in colonial clothing signing a document with quill pens, with the American flag visible in the background",
+    "explanation": "The document that announced the American colonies' separation from Great Britain in 1776."
+  },
+  {
+    "term": "Moon Landing",
+    "image_prompt": "An astronaut in a white space suit standing on the moon's surface with the American flag planted beside them",
+    "explanation": "Neil Armstrong became the first human to walk on the moon on July 20, 1969."
+  },
+  {
+    "term": "Fall of the Berlin Wall",
+    "image_prompt": "People climbing over and breaking down a large concrete wall with hammers and tools, with crowds celebrating",
+    "explanation": "The physical barrier dividing East and West Berlin was torn down in 1989, symbolizing the end of the Cold War."
+  },
+  {
+    "term": "Pearl Harbor Attack",
+    "image_prompt": "Japanese fighter planes flying over battleships in a harbor with smoke and explosions rising from the ships",
+    "explanation": "The surprise military strike by Japan on the US naval base in Hawaii on December 7, 1941."
+  },
+  {
+    "term": "Civil Rights March",
+    "image_prompt": "A large crowd of people walking together holding signs that say 'I Have a Dream' and 'Civil Rights Now'",
+    "explanation": "The 1963 March on Washington where Martin Luther King Jr. delivered his famous 'I Have a Dream' speech."
+  }
+] 
